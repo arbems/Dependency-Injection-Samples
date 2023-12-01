@@ -7,3 +7,6 @@ In this repository you will find updated dependency injection examples in .NET
 
 ## Versions
 The main branch is now on .NET 8.0.
+
+## Learn more
+* [arbems.com](https://arbems.com)
