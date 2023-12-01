@@ -9,4 +9,4 @@ In this repository you will find updated dependency injection examples in .NET
 The main branch is now on .NET 8.0.
 
 ## Learn more
-[arbems.com](https://arbems.com)
+[Ejemplos de inyección de dependencias .NET](https://arbems.com)
