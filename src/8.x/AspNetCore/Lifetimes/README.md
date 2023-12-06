@@ -26,7 +26,7 @@ Solve as follows:
 	- Resolve a Scoped service from another Transient or Scoped service.
 
 ## ﻿Getting Started
-This is an example to show how service lifetimes work using dependency injection in .NET
+This is an example to show how service lifetimes work using dependency injection in ASP.NET Core
 ### Installation
 1. Install packages
 ```
