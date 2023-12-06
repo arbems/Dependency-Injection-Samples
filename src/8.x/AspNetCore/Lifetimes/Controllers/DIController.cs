@@ -5,23 +5,15 @@ namespace DbContext.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class DIController : ControllerBase
+    public class DIController(ILogger<DIController> logger,
+                      IOperationTransient transientOperation,
+                      IOperationScoped scopedOperation,
+                      IOperationSingleton singletonOperation) : ControllerBase
     {
-        private readonly ILogger _logger;
-        private readonly IOperationTransient _transientOperation;
-        private readonly IOperationSingleton _singletonOperation;
-        private readonly IOperationScoped _scopedOperation;
-
-        public DIController(ILogger<DIController> logger,
-                          IOperationTransient transientOperation,
-                          IOperationScoped scopedOperation,
-                          IOperationSingleton singletonOperation)
-        {
-            _logger = logger;
-            _transientOperation = transientOperation;
-            _scopedOperation = scopedOperation;
-            _singletonOperation = singletonOperation;
-        }
+        private readonly ILogger _logger = logger;
+        private readonly IOperationTransient _transientOperation = transientOperation;
+        private readonly IOperationSingleton _singletonOperation = singletonOperation;
+        private readonly IOperationScoped _scopedOperation = scopedOperation;
 
         [HttpGet]
         public ActionResult Get()
