@@ -1,8 +1,7 @@
-# ﻿Service lifetimes
+# ﻿Service lifetimes: Transient, Scoped & Singleton in ASP.NET Core
 
-Define how to create and delete the services stored in the service container. 
-You must choose a suitable durability for each service according to its 
-characteristics and requirements.
+Service lifetimes define how to create and delete the services stored in the service container. 
+You must choose a suitable durability for each service according to its characteristics and requirements.
 
 Services can be registered with one of the following lifetimes:
 
@@ -26,3 +25,16 @@ Solve as follows:
 	- Resolve a singleton service from a Transient or Scoped service.
 	- Resolve a Scoped service from another Transient or Scoped service.
 
+## ﻿Getting Started
+This is an example to show how service lifetimes work using dependency injection in .NET
+### Installation
+1. Install packages
+```
+Install-Package Microsoft.Extensions.DependencyInjection
+```
+### Usage
+```csharp
+function test() {
+  console.log("notice the blank line before this function?");
+}
+```
