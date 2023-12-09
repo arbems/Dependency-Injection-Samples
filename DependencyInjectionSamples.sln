@@ -31,13 +31,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceDescriptor", "src\8.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructorInjection", "src\8.x\AspNetCore\ConstructorInjection\ConstructorInjection.csproj", "{7F6AE5F0-67A7-49D3-80E5-5296C29EF52D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegisterGroups", "src\8.x\AspNetCore\RegisterGroups\RegisterGroups.csproj", "{BC14DD88-F103-45C4-B62E-92F6C75D9E19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RegisterGroups", "src\8.x\AspNetCore\RegisterGroups\RegisterGroups.csproj", "{BC14DD88-F103-45C4-B62E-92F6C75D9E19}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbContext", "src\8.x\AspNetCore\DbContext\DbContext.csproj", "{843BEA18-C4CE-4FC0-B546-796C215B5334}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Options", "src\8.x\AspNetCore\Options\Options.csproj", "{1F15BC4C-8B40-402D-AA39-2D82F18C708B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lifetimes", "src\8.x\AspNetCore\Lifetimes\Lifetimes.csproj", "{57ABBDC7-739B-4CBC-86D4-90F3D96A91D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9E312C00-9C57-4388-AB8C-508C26E808F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
