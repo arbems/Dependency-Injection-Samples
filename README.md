@@ -3,7 +3,7 @@ In this repository you will find updated dependency injection examples in .NET &
 
 ## Technologies
 
-* [.NET 8](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection)
+* [.NET 8](https://dotnet.microsoft.com/es-es/download/dotnet/8.0)
 
 ## Versions
 The main branch is now on .NET 8.0.
